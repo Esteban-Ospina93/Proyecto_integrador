@@ -299,21 +299,13 @@ p.text-icon{
 }
 /*-------------- QUINTA SECCIÓN -----------------*/
 .fifth-section{
-  padding-top: 90px;
+  padding: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.fifth-container-left{
-  width: 40%;
-}
-.image-fifth-section-left{
-  margin-left: 150px;
-}
-.section-aside{
-  width: 63%;
-  padding: 0 7%;
-}
+
+
 /* ++++++++++++++++++++ SERVICIOS +++++++++++++++++++++*/
 .back-img {
   background-image: url(./images/./back_service_img1.png);
