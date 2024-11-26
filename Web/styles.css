@@ -579,6 +579,204 @@ align-items: center;
 
 }
 
+/* NOSOTROS */
+
+.body-nosotros{
+  background-image: url(./images/img_fondo3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 1.5rem;
+  text-wrap:wrap;
+  overflow:scroll;
+}
+
+main .section-nosotros{
+  padding: 3rem;
+  margin: 18rem 2rem 2rem auto;
+  width: 100%;
+  height: 650px;
+  background-image: url(./images/veterinario.jpg);
+  background-size: cover;
+}
+
+.section-nosotros h2{
+  color: #2f9891;
+  text-align: left;
+  font-size: 3rem;
+  padding-left: 6rem;
+  padding-top:1.2rem;
+}
+
+.section-nosotros p{
+  text-align:left;
+  padding-left: 6rem;
+  padding-top: 1.5rem;
+  display: block;
+  font-size: 2rem;
+  color: #40c9a2ff;
+}
+
+
+.section-nosotros span {
+  text-align: left;
+  display: block;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  text-wrap:wrap;
+  color: #40c9a2ff;
+}
+
+.section-nosotros li{
+  text-align: left;
+  padding-left: 6rem;
+  padding-top: 2rem;
+  list-style:square;
+  list-style-position: inside;
+  color:#40c9a2ff ;
+}
+
+.section-nosotros ul{
+  display: block;
+}
+
+.section-nosotros2 {
+  text-align:center;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.section-nosotros2 h2{
+  color: #2f9891;
+  text-align: left;
+  font-size: 2.5rem;
+}
+
+.section-nosotros2 h3{
+  color: #2f9891;
+  font-size: 2rem;
+  text-align:left;
+}
+
+.section-nosotros2 p{
+  color: rgb(42, 131, 106);
+  text-align: left;
+  display: block;
+  
+}
+
+.button-nosotros{
+  background-color: rgb(61, 169, 164);
+  margin: 0 auto;
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  right: calc(50% + 300px);
+  top: calc(80% + 730px); 
+}
+
+
+.image-nosotros{
+  height: 400px;
+  width: 500;
+  box-shadow: 2px 2px 4px rgb(40, 68, 64); 
+  position:static;
+  top: 2px;
+  left: -250px;
+  border-radius: 10%;
+}
+
+.foto-nosotros {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 10rem;
+  position: relative;
+}
+
+.section-nosotros2container{
+ width: 90%;
+ margin: 0 auto;
+}
+.nosotros2-container-right {
+  margin-right: 100px;
+}
+
+/*contactanos*/
+.body-contacto{
+  background-image: url(images/img_fondo1.webp);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+
+}
+
+.contacto-section{
+  width: 60rem;
+  height: 70rem;
+  padding: 2.0rem;
+  margin: 20rem 3rem 5rem 22rem;
+  background-image: url(./images/fondo.png);
+  border-radius: 2rem;
+}
+
+.contacto-section h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #2f9c95ff;
+  font-size: 5rem;
+
+}
+
+.contacto-parrafo{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color:rgb(48, 132, 109);
+  font-size:2rem;
+  margin-top: 2rem;
+  font-weight:bold;
+}
+
+.article-contacto{
+  margin-top: 2rem;
+}
+
+.article-contacto .article-item-contacto{
+width: 40rem;
+height: 15rem;
+padding: 1rem;
+display: flex;
+justify-content: left;
+align-items: center;
+color: #2f9891;
+}
+
+.article-contacto .article-item-contacto img{
+  width: 8rem;
+  height: 8rem;
+}
+.article-contacto .article-item-contacto p,.article-contacto .article-item-contacto b{
+  font-size: 2.2rem;
+  padding:3rem;
+
+}
+
+.article-contacto .article-item-contacto p{
+  padding: 0.5rem;
+  text-wrap: nowrap;
+  display: block;
+}
+
+.article-contacto .article-contacto .article-item-contacto b {
+   display:block;
+   padding-right: 2rem;
+}
 @media (max-width: 1024px) and (min-width: 768px) {
   #header {
     width: 100%;
