@@ -12,8 +12,8 @@ html {
 
 #header {
   background-color: #ffffff;
-  max-width: 1200px;
-  width: 60%;
+  max-width: 70%;
+  min-width: 70%;
   height: auto;
   border-radius: 35px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -27,10 +27,9 @@ html {
 
 .main-nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: auto;
-  gap: 250px;
 }
 
 .logo {
@@ -141,9 +140,8 @@ footer ul li:not(:last-child)::after {
 #visitanos-button{
   background: orangered;
   color: white;
-  padding: 14px;
+  padding: 10px;
   border-radius: 10px;
-  border: none;
   font-size: 1.3rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
@@ -219,7 +217,7 @@ p.text-icon{
 }
 /*---------------TERCERA SECCION--------------*/
 .third-section{
-  height: 500px;
+  height: auto;
  }
 .main-third-container {
   padding-top: 65px;
@@ -241,13 +239,11 @@ p.text-icon{
 }
 /* TODO: Darle margen al botón arriba y abajo y areglarlo*/
 #mas-info-button{
-  background-color: rgb(61, 169, 164);
+  background-color: brown;
   display: flex;
   margin: 0 auto;
   color: white;
-  padding: 14px;
-  border-radius: 10px;
-  border: none;
+  padding: 10px;
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
   transition: all 0.5s ease;
@@ -283,12 +279,10 @@ p.text-icon{
   padding-bottom: 70px;
 }
 #agenda-cita-button{
-  background-color: rgb(61, 169, 164);
-  display: flex;
+  background-color: brown;
   margin: 0 auto;
   color: white;
-  padding: 14px;
-  border-radius: 10px;
+  padding: 10px;
   border: none;
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;

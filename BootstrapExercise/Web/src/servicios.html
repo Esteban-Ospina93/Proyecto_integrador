@@ -3,31 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles.css">
     <link rel="shortcut icon" href="../images/LOGO-VET.jpg" type="image/x-icon">
     <!-- Fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Nuestros Servicios</title>
 </head>
 <body>
     <header id="header">
-        <nav class="main-nav">
-            <figure>
-                <img src="../images/LOGO-VET.jpg" alt="Logo" class="logo">
-            </figure>
-            <ul>
-                <li><a href="./inicio.html">Inicio</a></li>
-                <li><a href="./servicios.html">Servicio</a></li>
-                <li><a href="./contactanos.html">Contáctanos</a></li>
-                <li><a href="./nosotros.html">Acerca de nosotros</a></li>
-                <li><a href="./login.html" id="login-label">Iniciar Sesión</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-md bg-body-tertiary main-nav">
+            <div class="container-fluid">
+                <figure>
+                    <img src="../images/LOGO-VET.jpg" alt="Logo" class="logo">
+                </figure>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contactanos.html">Contactanos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./login.html" id="login-label">Iniciar Sesión</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
+
     <main>
         <div class="back-img"></div>
         <img class="gif-service" src="../images/gif-service.gif" alt="animación de huellas">
@@ -41,8 +59,8 @@
                 <p class="text1">Entendemos que las mascotas son parte fundamental de tu familia, por eso, el bienestar de tu peludito es nuestra máxima prioridad. Nuestra clínica veterinaria en Medellín, es un lugar seguro y confiable, dónde tu compañero recibirá el mejor cuidado, trato y atención.</p>
 
                 <p class="text1">Contamos con un equipo de expertos apasionados por los animales; ellos se encargan de proporcionar atención excepcional a tu mascota, ofreciendo una amplia gama de servicios de calidad, según las necesidades.</p>
+                <button id="agenda-cita-button" type="button" class="btn btn-success d-block">¡¡Agenda tu cita!</button>
 
-                <button id="quiero-contactar-button">¡Quiero contactar!</button>
             </aside>
             <div class="first-container-service">
                 <figure>
